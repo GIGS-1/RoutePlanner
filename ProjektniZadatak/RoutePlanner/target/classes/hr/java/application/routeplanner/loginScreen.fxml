@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="680" prefWidth="360" spacing="20.0" style="-fx-background-color: #106c78" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.application.routeplanner.LoginScreenController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <GridPane prefHeight="829.0" prefWidth="320.0">
+     <columnConstraints>
+       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+     </columnConstraints>
+     <rowConstraints>
+       <RowConstraints maxHeight="440.0" minHeight="10.0" prefHeight="325.0" vgrow="SOMETIMES" />
+         <RowConstraints maxHeight="519.0" minHeight="10.0" prefHeight="89.0" vgrow="SOMETIMES" />
+         <RowConstraints maxHeight="433.0" minHeight="0.0" prefHeight="41.0" vgrow="SOMETIMES" />
+         <RowConstraints maxHeight="294.0" minHeight="0.0" prefHeight="38.0" vgrow="SOMETIMES" />
+       <RowConstraints maxHeight="294.0" minHeight="0.0" prefHeight="42.0" vgrow="SOMETIMES" />
+         <RowConstraints maxHeight="294.0" minHeight="6.0" prefHeight="99.0" vgrow="SOMETIMES" />
+         <RowConstraints maxHeight="294.0" minHeight="10.0" prefHeight="31.0" vgrow="SOMETIMES" />
+     </rowConstraints>
+      <children>
+        <Button fx:id="logInButton" onAction="#onLoginButtonClick" style="-fx-background-color: white;" text="Log in" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+            <padding>
+               <Insets bottom="2.0" left="20.0" right="20.0" top="2.0" />
+            </padding></Button>
+         <ImageView fx:id="logo" fitHeight="234.0" fitWidth="311.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" />
+         <TextField fx:id="usernameIn" promptText="Username" GridPane.rowIndex="2">
+            <GridPane.margin>
+               <Insets left="70.0" right="70.0" />
+            </GridPane.margin>
+         </TextField>
+         <PasswordField fx:id="passwordIn" promptText="Password" GridPane.rowIndex="3">
+            <GridPane.margin>
+               <Insets left="70.0" right="70.0" />
+            </GridPane.margin>
+         </PasswordField>
+         <Label fx:id="message" textFill="#dadada" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+         <Label fx:id="createAccountButton" onMouseClicked="#onCreateAccoutnClick" text="Create Account" textFill="#abc3c9" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+      </children>
+   </GridPane>
+</VBox>

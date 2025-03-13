@@ -1,0 +1,324 @@
+<Data>
+    <preset>
+        <EN></EN>
+        <HR></HR>
+        <FR></FR>
+        <IT></IT>
+        <PL></PL>
+    </preset>
+    <LoginScreenMessage1>
+        <EN>An account with the username # doesn't exist.</EN>
+        <HR>Racun sa korisnickim imenom # ne postoji.</HR>
+        <FR>Un compte avec le nom d'utilisateur # n'existe pas.</FR>
+        <IT>Un account con il nome utente # non esiste.</IT>
+        <PL>Konto o nazwie użytkownika # nie istnieje.</PL>
+    </LoginScreenMessage1>
+    <LoginScreenMessage2>
+        <EN>The entered password is incorrect</EN>
+        <HR>Unesena lozinka je neispravna</HR>
+        <FR>Le mot de passe saisi est incorrect</FR>
+        <IT>La password inserita non è corretta</IT>
+        <PL>Wpisane hasło jest nieprawidłowe</PL>
+    </LoginScreenMessage2>
+    <logInButton>
+        <EN>Log in</EN>
+        <HR>Prijavi se</HR>
+        <FR>Se connecter</FR>
+        <IT>Login</IT>
+        <PL>Zaloguj się</PL>
+    </logInButton>
+    <createAccountButton>
+        <EN>Create account</EN>
+        <HR>Napravi racun</HR>
+        <FR>Créer un compte</FR>
+        <IT>Creare un account</IT>
+        <PL>Utwórz konto</PL>
+    </createAccountButton>
+    <usernameIn>
+        <EN>Username</EN>
+        <HR>Korisnicko ime</HR>
+        <FR>Nom d'utilisateur</FR>
+        <IT>Nome utente</IT>
+        <PL>Nazwa użytkownika</PL>
+    </usernameIn>
+    <passwordIn>
+        <EN>Password</EN>
+        <HR>Lozinka</HR>
+        <FR>Mot de passe</FR>
+        <IT>Password</IT>
+        <PL>Hasło</PL>
+    </passwordIn>
+    <mainText>
+        <EN>Create a new account</EN>
+        <HR>Stvori novi racun</HR>
+        <FR>Créer un nouveau compte</FR>
+        <IT>Crea un nuovo account</IT>
+        <PL>Utwórz nowe konto</PL>
+    </mainText>
+    <create>
+        <EN>Create</EN>
+        <HR>Stvori</HR>
+        <FR>Créer</FR>
+        <IT>Creare</IT>
+        <PL>Tworzyć</PL>
+    </create>
+    <cancel>
+        <EN>Cancel</EN>
+        <HR>Odustani</HR>
+        <FR>Annuler</FR>
+        <IT>Cancellare</IT>
+        <PL>Anulować</PL>
+    </cancel>
+    <UsernameAlreadyExistsException>
+        <EN>An account with the username # already exists.</EN>
+        <HR>Korisnik sa imenom # vec postoji</HR>
+        <FR>Un compte avec le nom d'utilisateur # existe déjà.</FR>
+        <IT>Esiste già un account con il nome utente #.</IT>
+        <PL>Konto o nazwie użytkownika # już istnieje.</PL>
+    </UsernameAlreadyExistsException>
+    <PasswordTooShortException>
+        <EN>The passwod is too short. Minmal password length is 8 characters.</EN>
+        <HR>Lozinka je pre kratka. Minmalna duzina je 8 znakova</HR>
+        <FR>Le mot de passe est trop court. La longueur minimale du mot de passe est de 8 caractères.</FR>
+        <IT>La password è troppo corta. La lunghezza minima della password è di 8 caratteri.</IT>
+        <PL>Hasło jest za krótkie. Minimalna długość hasła to 8 znaków.</PL>
+    </PasswordTooShortException>
+    <StartButton>
+        <EN>Start</EN>
+        <HR>Kreni</HR>
+        <FR>Commencer</FR>
+        <IT>Inizio</IT>
+        <PL>Start</PL>
+    </StartButton>
+    <StopButton>
+        <EN>Stop</EN>
+        <HR>Stani</HR>
+        <FR>Arrêt</FR>
+        <IT>Fermare</IT>
+        <PL>Zatrzymywać się</PL>
+    </StopButton>
+    <Beginning>
+        <EN>From:</EN>
+        <HR>Od:</HR>
+        <FR>Depuis:</FR>
+        <IT>Da:</IT>
+        <PL>Z:</PL>
+    </Beginning>
+    <End>
+        <EN>To:</EN>
+        <HR>Do:</HR>
+        <FR>À:</FR>
+        <IT>A:</IT>
+        <PL>Do:</PL>
+    </End>
+    <Search>
+        <EN>Search</EN>
+        <HR>Traži</HR>
+        <FR>Recherche</FR>
+        <IT>Ricerca</IT>
+        <PL>Szukaj</PL>
+    </Search>
+    <AddStop>
+        <EN>Add stop</EN>
+        <HR>Dodaj</HR>
+        <FR>Ajouter un arrêt</FR>
+        <IT>Aggiungi fermata</IT>
+        <PL>Dodaj przystanek</PL>
+    </AddStop>
+    <DistanceLabel>
+        <EN>Distance</EN>
+        <HR>Udaljenost</HR>
+        <FR>Distance</FR>
+        <IT>Distanza</IT>
+        <PL>Dystans</PL>
+    </DistanceLabel>
+    <SpeedLabel>
+        <EN>Speed</EN>
+        <HR>Brzina</HR>
+        <FR>Vitesse</FR>
+        <IT>Velocità</IT>
+        <PL>Prędkość</PL>
+    </SpeedLabel>
+    <AvgSpeedLabel>
+        <EN>Avg speed</EN>
+        <HR>Prosjecna brzina</HR>
+        <FR>Vitesse moyenne</FR>
+        <IT>Velocità media</IT>
+        <PL>Średnia prędkość</PL>
+    </AvgSpeedLabel>
+    <MaxSpeedLabel>
+        <EN>Max Speed</EN>
+        <HR>Maksimalna brzina</HR>
+        <FR>Vitesse maximale</FR>
+        <IT>Velocità massima</IT>
+        <PL>Maksymalna prędkość</PL>
+    </MaxSpeedLabel>
+    <SaveRouteLabel>
+        <EN>Please write the route name</EN>
+        <HR>Unesite naziv rute</HR>
+        <FR>Veuillez écrire le nom de l'itinéraire</FR>
+        <IT>Si prega di scrivere il nome del percorso</IT>
+        <PL>Proszę wpisać nazwę trasy</PL>
+    </SaveRouteLabel>
+    <SavePopup>
+        <EN>Save</EN>
+        <HR>Spremi</HR>
+        <FR>Sauvegarder</FR>
+        <IT>Salva</IT>
+        <PL>Ratować</PL>
+    </SavePopup>
+    <RoutesLabel>
+        <EN>Routes</EN>
+        <HR>Rute</HR>
+        <FR>Itinéraires</FR>
+        <IT>Percorsi</IT>
+        <PL>Trasy</PL>
+    </RoutesLabel>
+    <RidesLabel>
+        <EN>Rides</EN>
+        <HR>Vožnje</HR>
+        <FR>Manèges</FR>
+        <IT>Cavalcate</IT>
+        <PL>Jeździ</PL>
+    </RidesLabel>
+    <LogLabel>
+        <EN>Change log</EN>
+        <HR>Zapisnik</HR>
+        <FR>Journal</FR>
+        <IT>Registro</IT>
+        <PL>Dziennik</PL>
+    </LogLabel>
+    <AdminLabel>
+        <EN>Admin screen</EN>
+        <HR>Admin sučelje</HR>
+        <FR>Écran d'administration</FR>
+        <IT>Schermata di amministrazione</IT>
+        <PL>Ekran administratora</PL>
+    </AdminLabel>
+    <LngLabel>
+        <EN>Language</EN>
+        <HR>Jezik</HR>
+        <FR>Langue</FR>
+        <IT>Lingua</IT>
+        <PL>Język</PL>
+    </LngLabel>
+    <UnitLabel>
+        <EN>Unit</EN>
+        <HR>Mjerna jedinica</HR>
+        <FR>Unité</FR>
+        <IT>Unità</IT>
+        <PL>Jednostka</PL>
+    </UnitLabel>
+    <ReportLabel>
+        <EN>Generate report</EN>
+        <HR>Kreiraj  izvještaj</HR>
+        <FR>Générer un rapport</FR>
+        <IT>Genera rapporto</IT>
+        <PL>Wygeneruj raport</PL>
+    </ReportLabel>
+    <LogOutLabel>
+        <EN>Log out</EN>
+        <HR>Odjava</HR>
+        <FR>Se déconnecter</FR>
+        <IT>Esci</IT>
+        <PL>Wyloguj się</PL>
+    </LogOutLabel>
+    <AddNewRouteLabel>
+        <EN>Add a new route</EN>
+        <HR>Dodaj novu rutu</HR>
+        <FR>Ajouter un nouvel itinéraire</FR>
+        <IT>Aggiungi un nuovo percorso</IT>
+        <PL>Dodaj nową trasę</PL>
+    </AddNewRouteLabel>
+    <Route>
+        <EN>Route</EN>
+        <HR>Ruta</HR>
+        <FR>Itinéraire</FR>
+        <IT>Itinerario</IT>
+        <PL>Trasa</PL>
+    </Route>
+    <NameLabel>
+        <EN>Name: </EN>
+        <HR>Naziv: </HR>
+        <FR>Nom:</FR>
+        <IT>Nome:</IT>
+        <PL>Nazwa:</PL>
+    </NameLabel>
+    <WaypointsLabel>
+        <EN>Waypoints: </EN>
+        <HR>Putna točka: </HR>
+        <FR>Points de cheminement :</FR>
+        <IT>Punti di passaggio:</IT>
+        <PL>Punkty orientacyjne:</PL>
+    </WaypointsLabel>
+    <User>
+        <EN>User</EN>
+        <HR>Korisnik</HR>
+        <FR>Utilisateur</FR>
+        <IT>Utente</IT>
+        <PL>Użytkownik</PL>
+    </User>
+    <RoleLabel>
+        <EN>Role: </EN>
+        <HR>Uloga: </HR>
+        <FR>Rôle: </FR>
+        <IT>Ruolo:</IT>
+        <PL>Rola:</PL>
+    </RoleLabel>
+    <Ride>
+        <EN>Ride</EN>
+        <HR>Vožnja</HR>
+        <FR>Monter</FR>
+        <IT>Passeggiata</IT>
+        <PL>Jeździć</PL>
+    </Ride>
+    <DistanceLabel1>
+        <EN>Distance: </EN>
+        <HR>Udaljenost: </HR>
+        <FR>Distance:</FR>
+        <IT>Distanza:</IT>
+        <PL>Dystans:</PL>
+    </DistanceLabel1>
+    <Name>
+        <EN>Name</EN>
+        <HR>Naziv</HR>
+        <FR>Nom</FR>
+        <IT>Nome</IT>
+        <PL>Nazwa</PL>
+    </Name>
+    <Waypoints>
+        <EN>Waypoints</EN>
+        <HR>Putne točke</HR>
+        <FR>Points de cheminement</FR>
+        <IT>Waypoint</IT>
+        <PL>Punkty orientacyjne</PL>
+    </Waypoints>
+    <Username>
+        <EN>Username</EN>
+        <HR>Korisničko ime</HR>
+        <FR>Nom d'utilisateur</FR>
+        <IT>Nome utente</IT>
+        <PL>Nazwa użytkownika</PL>
+    </Username>
+    <RidePoints>
+        <EN>Ride points</EN>
+        <HR>Točke vožnje</HR>
+        <FR>Points de trajet</FR>
+        <IT>Punti di corsa</IT>
+        <PL>Punkty jazdy</PL>
+    </RidePoints>
+    <Time>
+        <EN>Time</EN>
+        <HR>Vrijeme</HR>
+        <FR>Temps</FR>
+        <IT>Tempo</IT>
+        <PL>Czas</PL>
+    </Time>
+    <Role>
+        <EN>Role</EN>
+        <HR>Uloga</HR>
+        <FR>Rôle</FR>
+        <IT>Ruolo</IT>
+        <PL>Rola</PL>
+    </Role>
+</Data>

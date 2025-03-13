@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<user>
+    <username>1</username>
+    <role>Admin</role>
+    <rides>
+        <ride>
+            <rideName>2024-12-23 01:30:30</rideName>
+            <distance>0.31</distance>
+            <avgSpeed>371.38</avgSpeed>
+            <maxSpeed>409.34</maxSpeed>
+        </ride>
+        <ride>
+            <rideName>2024-12-23 01:30:42</rideName>
+            <distance>0.96</distance>
+            <avgSpeed>360.13</avgSpeed>
+            <maxSpeed>415.66</maxSpeed>
+        </ride>
+    </rides>
+</user>
