@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.maps.MapView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="680" prefWidth="360" spacing="20.0" style="-fx-background-color: #106c78" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.application.routeplanner.RideScreenController">
+    <StackPane prefHeight="830.0" prefWidth="320.0">
+        <children>
+            <GridPane prefHeight="442.0" prefWidth="320.0">
+                <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints maxHeight="440.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="613.0" minHeight="0.0" prefHeight="567.0" vgrow="SOMETIMES" />
+               <RowConstraints maxHeight="436.0" minHeight="0.0" prefHeight="61.0" vgrow="SOMETIMES" />
+                </rowConstraints>
+                <children>
+                    <ImageView fx:id="logo" fitHeight="59.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" />
+                    <VBox fx:id="vb" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="320.0" style="-fx-background-radius: 30 30 30 30;" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                        <children>
+                            <MapView fx:id="mapView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="559.0" prefWidth="320.0">
+                                <VBox.margin>
+                                    <Insets bottom="20.0" />
+                                </VBox.margin>
+                            </MapView>
+                     <GridPane maxHeight="40.0" minHeight="40.0" prefHeight="40.0" prefWidth="320.0">
+                        <columnConstraints>
+                           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        </columnConstraints>
+                        <rowConstraints>
+                           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        </rowConstraints>
+                        <children>
+                           <Label fx:id="distanceTraveled" text="0.00" textFill="WHITE" GridPane.halignment="CENTER" />
+                           <Label fx:id="currentSpeed" text="0.00" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
+                           <Label fx:id="averageSpeed" text="0.00" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="CENTER" />
+                           <Label fx:id="maxSpeed" text="0.00" textFill="WHITE" GridPane.columnIndex="3" GridPane.halignment="CENTER" />
+                           <Text fill="#d7d7d7" strokeType="OUTSIDE" strokeWidth="0.0" text="Distance" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                              <font>
+                                 <Font size="9.0" />
+                              </font>
+                           </Text>
+                           <Text fill="#d7d7d7" strokeType="OUTSIDE" strokeWidth="0.0" text="Speed" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                              <font>
+                                 <Font size="9.0" />
+                              </font>
+                           </Text>
+                           <Text fill="#d7d7d7" strokeType="OUTSIDE" strokeWidth="0.0" text="Average speed" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                              <font>
+                                 <Font size="9.0" />
+                              </font>
+                           </Text>
+                           <Text fill="#d7d7d7" strokeType="OUTSIDE" strokeWidth="0.0" text="Max speed" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                              <font>
+                                 <Font size="9.0" />
+                              </font>
+                           </Text>
+                        </children>
+                        <VBox.margin>
+                           <Insets bottom="15.0" />
+                        </VBox.margin>
+                     </GridPane>
+                        </children>
+                    </VBox>
+               <ImageView fx:id="deleteButton" fitHeight="35.0" fitWidth="35.0" onMouseClicked="#onDeleteButonPress" pickOnBounds="true" preserveRatio="true" GridPane.halignment="RIGHT">
+                  <GridPane.margin>
+                     <Insets right="15.0" />
+                  </GridPane.margin>
+               </ImageView>
+               <ImageView fx:id="backButton" fitHeight="43.0" fitWidth="43.0" onMouseClicked="#onBackButtonPress" pickOnBounds="true" preserveRatio="true">
+                  <GridPane.margin>
+                     <Insets left="10.0" />
+                  </GridPane.margin>
+               </ImageView>
+                </children>
+            </GridPane>
+        </children>
+    </StackPane>
+</VBox>
