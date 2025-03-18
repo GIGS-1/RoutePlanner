@@ -3,17 +3,15 @@ Bicycle routing app - Java / JavaFX / H2 Database
 
 ## Description
 
-Route planner aplikacije je izrađena u Javi te je cilj bio napraviti aplikaciju koja bi omogućila jednostavan način za planiranje ruta vožnji biciklom i praćenje vožnji (ucrtavanje kretanja i praćenje bitnih metrika poput brzine, udaljenosti, vremmena, itd.).
+Route planner aplikacije je izrađena u Javi te je cilj bio napraviti aplikaciju koja bi omogućila jednostavan način za planiranje ruta vožnji biciklom i praćenje vožnji (ucrtavanje kretanja i praćenje bitnih metrika poput brzine, udaljenosti, vremena, itd.).
 
-Aplikacija koristi SHA-256 algoritam sa promjenjivom soli i paprom za sigrnost pri prijavi, te su podatci o lokacijama spremljeni unutar enkriptiranih XML i JSON datoteka unutar baze podataka radi sigirnosti.
+Aplikacija koristi SHA-256 algoritam sa promjenjivom soli i paprom za sigurnost pri prijavi, te su podatci o lokacijama spremljeni unutar enkriptiranih XML i JSON datoteka unutar baze podataka radi sigurnosti.
 
-Za geolocation i routing se koristi GraphHopper API te se rute prikazuju na OpenStreetMap karti. 
+Za geolocation i routing se koristi GraphHopper API te se rute prikazuju na GluonHQ karti.
 
-Aplikacija ima mogućnost kreiranja PDF izveštaja sa podatcima korisnika i svih spremljenih vožnji, te također ima mogućnnost importa i exporta ruta u binarnom obliku kako bi se mogle dijeliti među korisnicima.
+Aplikacija ima mogućnost kreiranja PDF izvještaja sa podatcima korisnika i svih spremljenih vožnji, te također ima mogućnost importa i exporta ruta u binarnom obliku kako bi se mogle dijeliti među korisnicima.
 
-U izradi aplikacije na nekoliko mijesta su radi boljih performansi aplikacije korištene dretve i kritične sekcije.
-
-
+U izradi aplikacije na nekoliko mjesta su radi boljih performansi aplikacije korištene dretve i kritične sekcije
 
 ## Video
 
